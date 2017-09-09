@@ -74,7 +74,7 @@ class qui {
                 afin d'aprendre a se passer de google pour re-décentraliser internet et donc le rendre plus libre.
             </li>
             <li><?= html_structures::a_link($wiki . "Mozilla", "Mozilla", "", "Mozilla, lien externe wikipedia", true) ?>,
-                fondation créatrice de logiciels devenu emplématique du libre comme Firefox et Thunderbird,<br />
+                fondation créatrice de logiciels devenu emblématique du libre comme Firefox et Thunderbird,<br />
                 également militante de la neutralité du net.
             </li>
             <li><?= html_structures::a_link("https://duckduckgo.com", "DuckDuckGo", "", "DuckDuckGO, lien externe", true) ?>,
@@ -120,7 +120,7 @@ class qui {
         <p> 
             Après quelques mois de recherche d'emplois, je rentre dans une socièté spécialité dans l'accessiblité numérique: <br />
             rendre des applications accessibles aux aveugles, mal-voyants, sourds et mal-entendants... incroyable !
-            C'est un dommaine tout nouveau pour moi, je n'ai jamais eu de cours sur le sujet. <br />
+            C'est un domaine tout nouveau pour moi, je n'ai jamais eu de cours sur le sujet. <br />
             Je travaille au contact d'aveugles, mal-voyants et sourds. J'aprends quelques rudiments de la LSF (Langue des Signes Française),
             et j'apprends également quelques bases pour produire du code accessible suivant le referentiel 
             <?= html_structures::a_link("https://references.modernisation.gouv.fr/rgaa-accessibilite/", "RGAA v2", "", "RGAA, lien externe", true) ?> 
@@ -132,11 +132,11 @@ class qui {
             divers problèmes (majoritairement personnels) me pousse à demander que mon CDD ne soit pas renouvelé.
         </p>
         <p> 
-            Je décide alors de tenter une nouvelle avanture : créer une entreprise ! <br />
-            objectif : rendre le framework professionel pour répondre à un large éventails de besoins informatique.<br />
+            Je décide alors de tenter une nouvelle aventure : créer une entreprise ! <br />
+            objectif : rendre le framework professionel pour répondre à un large éventail de besoins informatique.<br />
             Après 1 an de création et 1 an d'activité, l'affaire ne tient pas et la société est dissoute. <br />
-            Mais je n'ai aucuns regrets : j'ai appris énormément de choses en ces 2 ans en temps que chef d'entreprise et notre objectif est en grosse parti atteint : <br />
-            Une verssion satisfaisante du framework fût publié sous licence GNU-GPLv3 lors de la dissolution de l'entreprise.
+            Mais je n'ai aucun regret : j'ai appris énormément de choses en ces 2 ans en temps que chef d'entreprise et notre objectif est en grosse parti atteint : <br />
+            Une version satisfaisante du framework fût publié sous licence GNU-GPLv3 lors de la dissolution de l'entreprise.
         </p>
         <div class="alert alert-info">
             <p>Pour plus de détails sur l'historique de ma société :</p>
