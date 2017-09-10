@@ -8,7 +8,7 @@ class projets {
 
     public function __construct() {
         ?>
-        <h1 class="text-center">Les projets</h1>
+        <h2 class="text-center">Les projets</h2>
         <div class="row">
             <div class="col-xs-12">
                 <div class="panel panel-info">
@@ -27,7 +27,7 @@ class projets {
                 </div>
             </div>
         </div>
-        <h2 class="text-center">Projets dépendant de DWF (PHP)</h2>
+        <h3 class="text-center">Projets dépendant de DWF (PHP)</h3>
         <div class="row">
             <div class="col-xs-4">
                 <div class="panel panel-info">
@@ -70,9 +70,9 @@ class projets {
                         <p>Projet à venir, en cours ou en révision</p>
                     </div>
                 </div>
-            </div>            
+            </div>   
         </div>
-        <h2 class="text-center">Projets dépendant de DWF (Cordova)</h2>
+        <h3 class="text-center">Projets dépendant de DWF (Cordova)</h3>
         <div class="row">
             <div class="col-xs-4">
                 <div class="panel panel-info">

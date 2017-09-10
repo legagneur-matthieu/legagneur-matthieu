@@ -13,7 +13,7 @@ class cv {
                 $("head").append('<style type="text/css"> .dl-horizontal dt { width: 200px; } .dl-horizontal dd { margin-left: 210px; } </style>');
             });
         </script>
-        <h1 class="text-center">Curiculum Viatae</h1>
+        <h2 class="text-center">Curiculum Viatae</h2>
         <?php
         ob_start();
         ?>
