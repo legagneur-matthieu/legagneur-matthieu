@@ -39,7 +39,7 @@ class config { /* PDO */
             array("page" => "index",
                 "title" => "Qui suis-je ?",
                 "text" => "Qui suis-je ?",
-                "description" => "LEGAGNEUR Matthieu, développeur WEB et libriste, née le 24 Mars 1991 à Cherbourg",
+                "description" => "LEGAGNEUR Matthieu, développeur WEB et libriste, né le 24 Mars 1991 à Cherbourg",
                 "keyword" => "Index, LEGAGNEUR Matthieu, devwebframework, DWF"),
             array("page" => "cv",
                 "title" => "CV",
