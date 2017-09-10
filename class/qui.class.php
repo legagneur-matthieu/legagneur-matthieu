@@ -39,7 +39,7 @@ class qui {
             <li>
                 <?= html_structures::a_link($wiki . "Benjamin_Bayart", "Benjamin Bayart", "", "Benjamin Bayart, lien externe wikipedia", true) ?>,
                 anciens président de FDN (French Data Network), président de FFDN (Fédération FDN), militant français de la neutralité du net et du logiciel libre, <br />
-                il es connu également pour son "franc-parlé" qu'il assume et revandique, notament dans une conferance culte où il met en garde RENATER
+                il est connu également pour son "franc-parlé" qu'il assume et revandique, notament dans une conférence culte où il met en garde RENATER
                 (FAI spécialisé dans l'éducation et la recherche) <br />
                 (<?= html_structures::a_link("https://www.youtube.com/watch?v=ky03Pzjfynw", "Extrait de la conferance \"Benjamin Bayart - JRES - Neutralité du Net\"", "", "Benjamin Bayart à propos de Renater, lien externe Youtube", true) ?>)
             </li>
@@ -69,9 +69,9 @@ class qui {
         <p>Quelques organismes ou sociètés </p>
         <ul>
             <li><?= html_structures::a_link("https://framasoft.org/", "Framasoft", "", "Framasoft, lien externe", true) ?>,
-                Association libriste, redistributeur de logiciels libres instalable ou portable, à l'initiative du mouvement 
+                Association libriste, redistributeur de logiciels libres installable ou portable, à l'initiative du mouvement 
                 <?= html_structures::a_link("https://degooglisons-internet.org/", "Dégooglisons Internet", "", "Dégooglisons Internet, lien externe", true) ?>, <br />
-                afin d'aprendre a se passer de google pour re-décentraliser internet et donc le rendre plus libre.
+                afin d'aprendre à se passer de google pour re-décentraliser internet et donc le rendre plus libre.
             </li>
             <li><?= html_structures::a_link($wiki . "Mozilla", "Mozilla", "", "Mozilla, lien externe wikipedia", true) ?>,
                 fondation créatrice de logiciels devenu emblématique du libre comme Firefox et Thunderbird,<br />
