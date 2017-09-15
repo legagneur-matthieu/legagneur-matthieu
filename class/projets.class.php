@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 /**
  * Page projets
@@ -55,7 +55,7 @@ class projets {
                             Kelvin (°K), Celsius (°C), Fahrenheit (°F) et Benamran (°B, <strong>humoristique</strong>)
                         </p>
                         <p>
-                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/convertisseur_temperatures/", "GitHub", "", "Convertisseur de temperatures, lien externe Github", true) ?><br />
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/convertisseur_temperatures/", "GitHub", "", "Convertisseur de températures, lien externe Github", true) ?><br />
                             <?= html_structures::a_link("../convertisseur_temperatures/", "Convertisseur de températures", "", "Convertisseur de températures, lien externe", true) ?> 
                         </p>
                     </div>
@@ -70,17 +70,26 @@ class projets {
                         <p>Projet à venir, en cours ou en révision</p>
                     </div>
                 </div>
-            </div>   
+            </div>  
         </div>
         <h3 class="text-center">Projets dépendant de DWF (Cordova)</h3>
         <div class="row">
             <div class="col-xs-4">
                 <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">A Venir</h2>
+                    <div class="panel-heading"
+                         style="background: linear-gradient(to right, red, orange, yellow, yellowgreen, green, blue, indigo, violet); text-shadow:0 0 15px white; color : black;">
+                        <h2 class="panel-title">Convertisseur de températures</h2>
+                        <img src="src/GPLv3.png" alt="Licence : GPLv3" style="position: absolute; width: 60px; top: 5px; right: 25px;" />
                     </div>
                     <div class="panel-body">
-                        <p>Projet à venir, en cours ou en révision</p>
+                        <p>Convertisseur de températures en : <br />
+                            Kelvin (°K), Celsius (°C), Fahrenheit (°F) et Benamran (°B, <strong>humoristique</strong>). <br />
+                            Pour <strong>Android 4.4.2 et supérieur</strong>
+                        </p>
+                        <p>
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/cdv_convertisseur_temperatures/", "GitHub", "", "Convertisseur de températures, lien externe Github", true) ?><br />
+                            <?= html_structures::a_link("../convertisseur_temperatures/index.php?page=apk", "Page de téléchargement .APK", "", "Convertisseur de températures, lien externe", true) ?> 
+                        </p>
                     </div>
                 </div>
             </div>
