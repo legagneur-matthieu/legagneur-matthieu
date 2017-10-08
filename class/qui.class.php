@@ -10,7 +10,7 @@ class qui {
         $wiki = "https://fr.wikipedia.org/wiki/";
         ?> <h2 class="text-center">Qui est LEGAGNEUR Matthieu ?</h2>
         <p>
-            Difficile de décrire en détail la personnalité d'une perssone, encore moins quand il sagit de soi-même. <br />
+            Difficile de décrire en détail la perssonalité d'une perssone, encore moins quand il sagit de soi-même. <br />
             Je m'appele Matthieu, je suis né à <?= html_structures::a_link($wiki . "Cherbourg-Octeville", "Cherbourg", "", "Cherbourg, lien externe wikipedia", true) ?> 
             le <?= html_structures::time("1991-03-24", "24 mars 1991") ?>. J'ai donc au moment où vous lisez ce texte : <?= time::get_yers_old(24, 3, 1991); ?> ans. <br />
         </p>
