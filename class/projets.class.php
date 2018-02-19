@@ -10,7 +10,7 @@ class projets {
         ?>
         <h2 class="text-center">Les projets</h2>
         <div class="row">
-            <div class="col-xs-12">
+            <div class="col-xs-6">
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h2 class="panel-title">DevWebFramework (DWF)</h2>
@@ -26,10 +26,25 @@ class projets {
                     </div>
                 </div>
             </div>
+            <div class="col-xs-6">
+                <div class="panel panel-info">
+                    <div class="panel-heading" style="background: black; color: white;">
+                        <h2 class="panel-title">MySH</h2>
+                        <img src="src/GPLv3.png" alt="Licence : GPLv3" style="position: absolute; width: 60px; top: 5px; right: 25px;" />
+                    </div>
+                    <div class="panel-body">
+                        <p>MySH est un script permettant à la suite d'une installation d'Ubuntu (ou variantes) 
+                            d'installer facilement et rapidement divers environements et outils</p>
+                        <p>
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/MySH", "Github", "", "MySH, lien externe Github", true) ?>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
         <h3 class="text-center">Projets dépendant de DWF (PHP)</h3>
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-6 col-sm-4">
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h2 class="panel-title">Site LEGAGNEUR Matthieu</h2>
@@ -43,7 +58,7 @@ class projets {
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-6 col-sm-4">
                 <div class="panel panel-info">
                     <div class="panel-heading" 
                          style="background: linear-gradient(to right, red, orange, yellow, yellowgreen, green, blue, indigo, violet); text-shadow:0 0 15px white; color : black;">
@@ -61,7 +76,7 @@ class projets {
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-6 col-sm-4">
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h2 class="panel-title">A Venir</h2>
@@ -74,7 +89,7 @@ class projets {
         </div>
         <h3 class="text-center">Projets dépendant de DWF (Cordova)</h3>
         <div class="row">
-            <div class="col-xs-4">
+            <div class="col-xs-6 col-sm-4">
                 <div class="panel panel-info">
                     <div class="panel-heading"
                          style="background: linear-gradient(to right, red, orange, yellow, yellowgreen, green, blue, indigo, violet); text-shadow:0 0 15px white; color : black;">
@@ -93,7 +108,7 @@ class projets {
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-6 col-sm-4">
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h2 class="panel-title">A Venir</h2>
@@ -103,7 +118,7 @@ class projets {
                     </div>
                 </div>
             </div>
-            <div class="col-xs-4">
+            <div class="col-xs-6 col-sm-4">
                 <div class="panel panel-info">
                     <div class="panel-heading">
                         <h2 class="panel-title">A Venir</h2>
