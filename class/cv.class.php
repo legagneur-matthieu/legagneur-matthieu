@@ -45,32 +45,18 @@ class cv {
             <li>Créateur du DevWebFramework (DWF, framework PHP et Cordova) </li>
         </ul>
         <h3>EXPERIENCES PROFESSIONNELLES:</h3>
-        <dl class="dl-horizontal">
-            <dt>Juin 2016 - Juillet 2017</dt>
-            <dd>PDG de la S.A.S DevWebIT</dd>
-            <dt>Août 2015 - juin 2016</dt>
-            <dd>Création de la société DevWebIT</dd>
-            <dt>Mars 2015 - Juillet 2015</dt>
-            <dd>Ent. Urbilog - Développeur PHP</dd>
-            <dt>Mars 2014</dt>
-            <dd>Stage au Centre Hospitalier de Guise (18 semaines)</dd>
-            <dt>Décembre 2012</dt>
-            <dd>Stage au Centre Hospitalier Brisset d’Hirson (6 semaines)</dd>
-            <dt>Juin 2012</dt>
-            <dd>Stage au magasin Telecom1 de Guise (5 semaines)</dd>
-            <dt>Mars 2007 - Février 2011</dt>
-            <dd>Ent.LEGAGNEUR
-                <ul>
-                    <li>Assistant électricien</li>
-                    <li>Pose d&apos;équipements électriques</li>
-                    <li>Installation de réseaux RJ45</li>
-                </ul>
-            </dd>
-        </dl>
+        <?=
+        html_structures::table(["Année", "Activitée"], [
+            ["Juin 2016 - Juillet 2017", "PDG de la S.A.S DevWebIT"],
+            ["Août 2015 - juin 2016", "Création de la société DevWebIT"],
+            ["Mars 2015 - Juillet 2015", "Ent. Urbilog - Développeur PHP"],
+            ["Mars 2014", "Stage au Centre Hospitalier de Guise (18 semaines)"],
+            ["Décembre 2012", "Stage au Centre Hospitalier Brisset d’Hirson (6 semaines)"],
+            ["Juin 2012", "Stage au magasin Telecom1 de Guise (5 semaines)"],
+        ]);
+        ?>
         <h3>LANGUE MAITRISE:</h3>
         <p>Anglais technique</p>
-        <h3>CENTRE D&apos;INTERET:</h3>
-        <p>Informatique (jeux, programmations, gestion de sites)</p>
         <?php
         echo ($html = ob_get_clean()) . html_structures::hr();
         $pdf = new printer("dompdf");
@@ -90,10 +76,11 @@ table td[class*="col-"],table th[class*="col-"] { position: static; float: none;
 .dl-horizontal dt { float: left; width: 150px; clear: left; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .dl-horizontal dd { margin-left: 10px; }
 dd ul{margin-left: 150px;}');
-        $pdf->add_content('h1,h2,h3{ margin : 0; padding: 0; }
- p, ul, dl, table{font-size:14px; }
+        $pdf->add_content('h1,h2,h3,td,tr,th{ margin : 0; padding: 0; }
+ p, ul, dl, table{font-size:14px; margin 5px;}
+ dd{margin:0 50px}
 </style>');
-        $pdf->add_content(utf8_decode($html));
+        $pdf->add_content($html);
         $pdf->print_buton();
     }
 
