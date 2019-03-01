@@ -24,15 +24,14 @@ class cv {
             <?= time::get_yers_old(24, 3, 1991); ?> ans, Célibataire, Permis B<br />
 
         </p>
-        <h2 class="text-center">Développeur web</h2>
+        <h2 class="text-center">Développeur Web </h2>
         <h3>FORMATIONS:</h3>
         <?=
-        html_structures::table(array("Années", "Etablicements", "Diplomes"), array(
-            array("2013 - 2014", "INSSET (02100, Saint -Quentin)", "Licence professionnelle développeur Web"),
-            array("2011 - 2013", "Lycée Paul Claudel (02000, Laon)", "BTS SIO SLAM (programmation informatique)"),
-            array("2006 - 2011", "Lycée Joliot-Curie (02500 Hirson)", "BAC STI génie électrotechnique (mention bien)"),
-            array("2004 - 2006", "Collège Camille Desmoulins (02120 Guise)", "BEPC")
-        ));
+        html_structures::table(array("Années", "Etablicements", "Diplomes"), [
+            ["2013 - 2014", "INSSET (02100, Saint -Quentin)", "Licence professionnelle développeur Web"],
+            ["2011 - 2013", "Lycée Paul Claudel (02000, Laon)", "BTS SIO SLAM (programmation informatique)"],
+            ["2006 - 2011", "Lycée Joliot-Curie (02500 Hirson)", "BAC STI génie électrotechnique (mention bien)"]
+        ]);
         ?>
         <h3>COMPETENCES:</h3>
         <ul class="list-unstyled">
@@ -47,6 +46,7 @@ class cv {
         <h3>EXPERIENCES PROFESSIONNELLES:</h3>
         <?=
         html_structures::table(["Année", "Activitée"], [
+            ["Octobre 2018 - Décembre 2018", "Ent. Nomade Com - Développeur PHP"],
             ["Juin 2016 - Juillet 2017", "PDG de la S.A.S DevWebIT"],
             ["Août 2015 - juin 2016", "Création de la société DevWebIT"],
             ["Mars 2015 - Juillet 2015", "Ent. Urbilog - Développeur PHP"],
