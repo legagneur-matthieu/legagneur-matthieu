@@ -10,7 +10,7 @@ class pages { /** * Cette classe sert de "Vue" à votre application, * vous pouv
     /**     * Entete des pages */
     public function header() {
         ?> 
-        <header class="page-header label-info"> 
+        <header class="page-header bg-info"> 
             <h1>LEGAGNEUR Matthieu <br /><small>Développeur WEB, Libriste</small></h1> 
         </header> 
         <?php

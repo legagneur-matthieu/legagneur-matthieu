@@ -138,56 +138,8 @@ class qui {
             Mais je n'ai aucun regret : j'ai appris énormément de choses en ces 2 ans en tant que chef d'entreprise et notre objectif était en grosse parti atteint : <br />
             Une version satisfaisante du framework fut publié sous licence GNU-GPLv3 lors de la dissolution de l'entreprise.
         </p>
-        <div class="alert alert-info">
-            <p>Pour plus de détails sur l'historique de ma société :</p>
-            <ul>
-                <li><?php
-                    (new modal())->link_open_modal("Copie du \"Rapport du président AG DevWebIT 2017\"", "cp_r_pres", "(modal)", "Rapport du président AG DevWebIT 2017", "
- <p>Nous sommes réunis aujourd'hui, un an jour pour jour, après la création de l'entreprise pour faire le point et prendre les décisions qui s'imposent. </p>
- <p>Nous nous sommes lancés dans cette aventure avec toute notre volonté, nous nous sommes imposés d'être irréprochable.<br/>Irréprochable dans
- la gestion de l'entreprise, irréprochable sur le respect de la législation, irréprochable sur la tenue des comptes, irréprochable sur les délais pour fournir tout document
- à l'administration Française, la banque ou notre expert-comptable et irréprochable dans notre c&oelig;ur de métier : notre manière de développer notre technologie. </p>
- <p>Malheureusement cela n'a pas suffi, nous étions mal suivi au début puis par la suite bien accompagnés mais trop tardivement, notre talon d'Achille fut notre
- méconnaissance en marketing, en communication et à la façon d'obtenir les clients nécessaires à la survie de notre entreprise.</p>
- <p>Nous sommes donc réunis pour faire le bilan et mettre fin cette aventure qui nous aura appris énormément de choses dans divers domaines de l'entreprise et
- du développement informatique. </p>
- <p>De cette aventure subsistera notre technologie, le DevWebFramework (DWF), qui sera publié sous licence libre et poursuivra son
- évolution après la dissolution de l'entreprise. </p><p>Quelques rappels sur l'historique de la société : </p>
- <p>Juillet 2015 Je contacte Dominique LEPAGE pour le projet de création de la société,
- il émet la nécessité d'intégrer une troisième personne au projet, je contacte Rodolphe BERNARD qui accepte de nous rejoindre. </p>
- <p>Août 2015 - Mai 2016 Nous sommes suivi par la Mets puis la BGE et la CCI pour la création de l'entreprise. <br/>Entre temps,
- je forme Dominique et Rodolphe à la première version du framework que j'avais développé durant mes études. Une seconde version plus performante est développée rapidement.
- <br/>Malheureusement Dominique émet des doutes sur son ambition à devenir chef d'entreprise et préfère quitter l'aventure. <br/>Je démarche diverses banques et
- expert-comptables afin de choisir au mieux les partenaires de notre société. </p>
- <p>Juin 2016 Nous déposons notre dossier de création le 13 juin au CFE de la CCI de l'Aisne, nous ouvrons le compte professionnel à la Société Générale de Guise et
- signons la lettre de mission de l'expert-comptable chez CDER Baudeloque à Laon. </p>
- <p>Juillet 2016 - Mai 2017 Nous continuons à améliorer notre technologie pour étendre notre offre à un maximum de besoins informatique,
- Nous démarchons de nombreuses sociétés et de collectivités locales malheureusement sans succès, face à ce mur nous cherchons des conseils partout :
- nous participons à de nombreux salons et événements d'entreprises, nous souscrivons au réseau d'entreprise CPME en février 2017, nous nous tournons à nouveau vers la BGE,
- nous contactons même une école de commerce pour leur proposer notre société en cas d'étude pour éventuellement trouver une solution. Mais tout cela n'aboutira à rien.</p>
- <p>13 Juin 2017 Nous nous réunissons pour l'AGO et l'AGE afin de prendre les décisions qui s'imposent.</p>
-<p class='text-right'>LEGAGNEUR Matthieu</p>
- ", "");
-                    ?></li>
-                <li><?php
-                    (new modal())->link_open_modal("Copie du \"Rapport du liquidateur S.A.S DevWebIT le 31/07/2017\"", "cp_r_liq", "(modal)", "Rapport du liquidateur S.A.S DevWebIT le 31/07/2017", " 
- <p>Nous sommes réunis aujourd'hui, sept semaines après l'annonce de la dissolution de la S.A.S pour définitivement mettre fin à cette aventure qui, je le rappelle, nous aura énormément appris de choses.</p>
- <p>Ces sept semaines auront été éprouvantes pour moi, les procédures de dissolution de la société se sont révélées plus coûteuses que sa création, et ces mêmes procédures étaient parsemées de jours trop courts et stressant où je devais remplir et déposer les démarches le plus rapidement possible et d'autres jours horriblement longs et ennuyeux dans l'attente des réponses aux démarches, nécessaires aux suivantes.</p>
- <p>Mon moral a également été fortement éprouvé, notamment par la notion d'échec que je devais surmonter. </p>
- <p>Pour surmonter l'échec et combler les jours trop longs, j'ai continué à faire ce que je savais faire le mieux : améliorer le framework que nous avons développé et le préparer à sa publication sous la meilleure licence possible, ce sera la licence GNU GPL v3 qui sera retenue et la publication du framework aura lieu aujourd'hui même.</p>
- <p>Chaque semaine, je communiquais à Rodolphe l'avancement des démarches de dissolution dont voici l'historique :</p>
- <p>Le vendredi 16 juin, je tente d'obtenir un rendez-vous à la société générale afin d'obtenir un chéquier d'entreprise, car l'administration (fiscale et le CFE) demande à être payée par chèque, m'expliquant que payer par virement retarderait les démarches, le directeur de l'agence de la société générale m'informe en fin de journée qu'il ne sera pas disponible avant le 22 juin. Je décide alors malgré tout de déposer l'AGE au centre d'enregistrement fiscal le mardi 20 juin qui me délivre un RIB, je fait le virement bancaire dans la même journée.<BR>Le 22 juin, je commande le chéquier professionnel pour payer le CFE et le greffe du tribunal de commerce.</p>
- <p>Durant la semaine du 26 au 30 juin : je récupère le chéquier et l'AGE validée par les imp&ocirc;ts, je prend rendez-vous avec le CFE à la CCI de Laon,</p>
- <p>Durant la semaine du 3 au 7 juillet : je dépose le dossier de dissolution dûment remplie au CFE à la CCI de Laon et obtient le nouveau Kbis avec la motion de dissolution dans la même semaine. Je dépose alors la comptabilité à CDER Baudeloque pour qu'il rédige le bilan de liquidation.</p>
- <p>Le jeudi 27 juillet, après quelques échanges avec CDER, nous recevons le bilan de liquidation et décidons de faire l'assemblée générale ordinaire de liquidation le plus rapidement possible, nous la ferons le 31 juillet, pour être en conformité avec la loi et ne pas avoir à attendre quinze jours de plus, Rodolphe signera une attestation indiquant qu'il accepte de réduire son délai de consultation à quatre jours.</p>
- <p>Lundi 31 juillet, nous nous réunissons pour cette assemblée générale ordinaire de liquidation.</p>
- <p class='text-right'>LEGAGNEUR Matthieu</p> 
-", "");
-                    ?></li>
-                <li><?= html_structures::a_link("https://github.com/legagneur-matthieu/DevWebFramework", "DevWebFramework (GitHub)", "", "DevWebFramework, lien externe GitHub", true) ?> </li>
-            </ul>
-        </div>
         <p>Aujourd'hui je suis à la recherche d'une entreprise corespondant à mes valeurs et dans laquelle je pourrais pleinement m'épanouir .</p>
+        <p>Je continue a améliorer le framewoerk et y intégrer mes connaissances.</p>
         <?php
     }
 

@@ -7,124 +7,132 @@
 class projets {
 
     public function __construct() {
+        compact_css::get_instance()->add_style((new css())->add_rule(".card-header img", [
+                    "position" => "absolute",
+                    "width" => "60px",
+                    "top" => "15px",
+                    "right" => "5px"
+        ]));
         ?>
         <h2 class="text-center">Les projets</h2>
         <div class="row">
-            <div class="col-xs-6">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">DevWebFramework (DWF)</h2>
-                        <img src="src/GPLv3.png" alt="Licence : GPLv3" style="position: absolute; width: 60px; top: 5px; right: 25px;" />
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>DevWebFramework (DWF)</h3>
+                        <img src="src/GPLv3.png" alt="Licence : GPLv3"/>
                     </div>
-                    <div class="panel-body">
-                        <p>Framework PHP et Cordova implémente de nombeuses libairies PHP et JS <br />
+                    <div class="card-body">
+                        <p class="card-text">Framework PHP et Cordova implémente de nombeuses libairies PHP et JS <br />
                             "Simplicité pour les utilisateurs, liberté pour les développeurs" est la devise du framework.</p>
-                        <p>
-                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/DevWebFramework", "Github", "", "DevWebFramework, lien externe Github", true) ?> <br />
-                            <?= html_structures::a_link("../doc/", "Documentation", "", "Documentation DevWebFramework, lien externe", true) ?>
+                        <p class="card-text">
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/DevWebFramework", "Github", "card-link", "DevWebFramework, lien externe Github", true) ?> <br />
+                            <?= html_structures::a_link("../doc/", "Documentation", "card-link", "Documentation DevWebFramework, lien externe", true) ?>
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6">
-                <div class="panel panel-info">
-                    <div class="panel-heading" style="background: black; color: white;">
-                        <h2 class="panel-title">MySH</h2>
-                        <img src="src/GPLv3.png" alt="Licence : GPLv3" style="position: absolute; width: 60px; top: 5px; right: 25px;" />
+            <div class="col-sm-6">
+                <div class="card">
+                    <div class="card-header" style="background: black; color: white;">
+                        <h3>MySH</h3>
+                        <img src="src/GPLv3.png" alt="Licence : GPLv3"/>
                     </div>
-                    <div class="panel-body">
-                        <p>MySH est un script permettant à la suite d'une installation d'Ubuntu (ou variantes) 
+                    <div class="card-body">
+                        <p class="card-text">MySH est un script permettant à la suite d'une installation d'Ubuntu (ou variantes) 
                             d'installer facilement et rapidement divers environements et outils</p>
-                        <p>
-                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/MySH", "Github", "", "MySH, lien externe Github", true) ?>
+                        <p class="card-text">
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/MySH", "Github", "card-link", "MySH, lien externe Github", true) ?>
                         </p>
                     </div>
                 </div>
             </div>
         </div>
-        <h3 class="text-center">Projets dépendant de DWF (PHP)</h3>
+        <hr />
+        <h2 class="text-center">Projets dépendant de DWF (PHP)</h2>
         <div class="row">
-            <div class="col-xs-6 col-sm-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">Site LEGAGNEUR Matthieu</h2>
-                        <img src="src/GPLv3.png" alt="Licence : GPLv3" style="position: absolute; width: 60px; top: 5px; right: 25px;" />
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>Site LEGAGNEUR Matthieu</h3>
+                        <img src="src/GPLv3.png" alt="Licence : GPLv3"/>
                     </div>
-                    <div class="panel-body">
-                        <p>Le site sur le quel vous vous trouvez actuellement</p>
-                        <p>
-                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/legagneur-matthieu", "Github", "", "Legagneur Matthieu, lien externe Github", true) ?> <br />
+                    <div class="card-body">
+                        <p class="card-text">Le site sur le quel vous vous trouvez actuellement</p>
+                        <p class="card-text">
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/legagneur-matthieu", "Github", "card-link", "Legagneur Matthieu, lien externe Github", true) ?> <br />
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading" 
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-header" 
                          style="background: linear-gradient(to right, red, orange, yellow, yellowgreen, green, blue, indigo, violet); text-shadow:0 0 15px white; color : black;">
-                        <h2 class="panel-title">Convertisseur de températures</h2>
-                        <img src="src/GPLv3.png" alt="Licence : GPLv3" style="position: absolute; width: 60px; top: 5px; right: 25px;" />
+                        <h3>Convertisseur de températures</h3>
+                        <img src="src/GPLv3.png" alt="Licence : GPLv3"/>
                     </div>
-                    <div class="panel-body">
-                        <p>Convertisseur de températures en : <br />
+                    <div class="card-body">
+                        <p class="card-text">Convertisseur de températures en : <br />
                             Kelvin (°K), Celsius (°C), Fahrenheit (°F) et Benamran (°B, <strong>humoristique</strong>)
                         </p>
-                        <p>
-                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/convertisseur_temperatures/", "GitHub", "", "Convertisseur de températures, lien externe Github", true) ?><br />
-                            <?= html_structures::a_link("../convertisseur_temperatures/", "Convertisseur de températures", "", "Convertisseur de températures, lien externe", true) ?> 
+                        <p class="card-text">
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/convertisseur_temperatures/", "GitHub", "card-link", "Convertisseur de températures, lien externe Github", true) ?><br />
+                            <?= html_structures::a_link("../convertisseur_temperatures/", "Convertisseur de températures", "card-link", "Convertisseur de températures, lien externe", true) ?> 
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">A Venir</h2>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>A Venir</h3>
                     </div>
-                    <div class="panel-body">
-                        <p>Projet à venir, en cours ou en révision</p>
+                    <div class="card-body">
+                        <p class="card-text">Projet à venir, en cours ou en révision</p>
                     </div>
                 </div>
             </div>  
         </div>
-        <h3 class="text-center">Projets dépendant de DWF (Cordova)</h3>
+        <hr />
+        <h2 class="text-center">Projets dépendant de DWF (Cordova)</h2>
         <div class="row">
-            <div class="col-xs-6 col-sm-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading"
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-header"
                          style="background: linear-gradient(to right, red, orange, yellow, yellowgreen, green, blue, indigo, violet); text-shadow:0 0 15px white; color : black;">
-                        <h2 class="panel-title">Convertisseur de températures</h2>
-                        <img src="src/GPLv3.png" alt="Licence : GPLv3" style="position: absolute; width: 60px; top: 5px; right: 25px;" />
+                        <h3>Convertisseur de températures</h3>
+                        <img src="src/GPLv3.png" alt="Licence : GPLv3"/>
                     </div>
-                    <div class="panel-body">
-                        <p>Convertisseur de températures en : <br />
+                    <div class="card-body">
+                        <p class="card-text">Convertisseur de températures en : <br />
                             Kelvin (°K), Celsius (°C), Fahrenheit (°F) et Benamran (°B, <strong>humoristique</strong>). <br />
                             Pour <strong>Android 4.4.2 et supérieur</strong>
                         </p>
-                        <p>
-                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/cdv_convertisseur_temperatures/", "GitHub", "", "Convertisseur de températures, lien externe Github", true) ?><br />
-                            <?= html_structures::a_link("../convertisseur_temperatures/index.php?page=apk", "Page de téléchargement .APK", "", "Convertisseur de températures, lien externe", true) ?> 
+                        <p class="card-text">
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/cdv_convertisseur_temperatures/", "GitHub", "card-link", "Convertisseur de températures, lien externe Github", true) ?><br />
+                            <?= html_structures::a_link("../convertisseur_temperatures/index.php?page=apk", "Page de téléchargement .APK", "card-link", "Convertisseur de températures, lien externe", true) ?> 
                         </p>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">A Venir</h2>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>A Venir</h3>
                     </div>
-                    <div class="panel-body">
-                        <p>Projet à venir, en cours ou en révision</p>
+                    <div class="card-body">
+                        <p class="card-text">Projet à venir, en cours ou en révision</p>
                     </div>
                 </div>
             </div>
-            <div class="col-xs-6 col-sm-4">
-                <div class="panel panel-info">
-                    <div class="panel-heading">
-                        <h2 class="panel-title">A Venir</h2>
+            <div class="col-sm-6 col-md-4">
+                <div class="card">
+                    <div class="card-header">
+                        <h3>A Venir</h3>
                     </div>
-                    <div class="panel-body">
-                        <p>Projet à venir, en cours ou en révision</p>
+                    <div class="card-body">
+                        <p class="card-text">Projet à venir, en cours ou en révision</p>
                     </div>
                 </div>
             </div>
