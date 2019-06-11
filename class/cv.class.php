@@ -27,7 +27,7 @@ class cv {
         <h2 class="text-center">Développeur Web </h2>
         <h3>FORMATIONS:</h3>
         <?=
-        html_structures::table(array("Années", "Etablicements", "Diplomes"), [
+        html_structures::table(array("Années", "Etablissements", "Diplomes"), [
             ["2013 - 2014", "INSSET (02100, Saint -Quentin)", "Licence professionnelle développeur Web"],
             ["2011 - 2013", "Lycée Paul Claudel (02000, Laon)", "BTS SIO SLAM (programmation informatique)"],
             ["2006 - 2011", "Lycée Joliot-Curie (02500 Hirson)", "BAC STI génie électrotechnique (mention bien)"]
