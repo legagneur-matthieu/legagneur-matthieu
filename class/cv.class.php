@@ -46,7 +46,7 @@ class cv {
         <h3>EXPERIENCES PROFESSIONNELLES:</h3>
         <?=
         html_structures::table(["Année", "Activitée"], [
-            ["Octobre 2018 - Décembre 2018", "Ent. Nomade Com - Développeur PHP"],
+            ["Octobre 2017 - Décembre 2018", "Ent. Xternalis / Nomade Com - Développeur PHP"],
             ["Juin 2016 - Juillet 2017", "PDG de la S.A.S DevWebIT"],
             ["Août 2015 - juin 2016", "Création de la société DevWebIT"],
             ["Mars 2015 - Juillet 2015", "Ent. Urbilog - Développeur PHP"],
