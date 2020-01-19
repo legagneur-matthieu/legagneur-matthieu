@@ -139,7 +139,7 @@ class qui {
             Une version satisfaisante du framework fut publié sous licence GNU-GPLv3 lors de la dissolution de l'entreprise.
         </p>
         <p>Aujourd'hui je suis à la recherche d'une entreprise corespondant à mes valeurs et dans laquelle je pourrais pleinement m'épanouir .</p>
-        <p>Je continue a améliorer le framewoerk et y intégrer mes connaissances.</p>
+        <p>Je continue a améliorer le framework et y intégrer mes connaissances.</p>
         <?php
     }
 
