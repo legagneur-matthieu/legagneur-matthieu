@@ -119,10 +119,15 @@ class projets {
             <div class="col-sm-6 col-md-4">
                 <div class="card">
                     <div class="card-header">
-                        <h3>A Venir</h3>
+                        <h3>SMS Gateway</h3>
+                        <img src="src/GPLv3.png" alt="Licence : GPLv3"/>
                     </div>
                     <div class="card-body">
-                        <p class="card-text">Projet à venir, en cours ou en révision</p>
+                        <p class="card-text">Interface HTTP pour l'envoi de SMS</p>
+                        <p class="card-text">
+                            <?= html_structures::a_link("https://github.com/legagneur-matthieu/cdv_SMSGateway/", "GitHub", "card-link", "SMS Gateway, lien externe Github", true) ?><br />
+                            <?= html_structures::a_link("../smsgateway/", "Pésentation et téléchargement", "card-link", "SMS Gateway, lien externe", true) ?> 
+                        </p>
                     </div>
                 </div>
             </div>
