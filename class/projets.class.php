@@ -118,7 +118,7 @@ class projets {
             </div>
             <div class="col-sm-6 col-md-4">
                 <div class="card">
-                    <div class="card-header">
+                    <div class="card-header bg-info">
                         <h3>SMS Gateway</h3>
                         <img src="src/GPLv3.png" alt="Licence : GPLv3"/>
                     </div>

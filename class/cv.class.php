@@ -46,6 +46,7 @@ class cv {
         <h3>EXPERIENCES PROFESSIONNELLES:</h3>
         <?=
         html_structures::table(["Année", "Activitée"], [
+            ["Septembre 2020 - Aujourd'hui", "Ets LEGAGNEUR, dépannage informatique"],
             ["Aout 2018 - Fevrier 2019", "Nomade Com - Développeur PHP, Gérant"],
             ["Juin 2016 - Juillet 2017", "PDG de la S.A.S DevWebIT"],
             ["Août 2015 - juin 2016", "Création de la société DevWebIT"],
