@@ -27,7 +27,7 @@ class cv {
         <h2 class="text-center">Développeur Web </h2>
         <h3>FORMATIONS:</h3>
         <?=
-        html_structures::table(array("Années", "Etablissements", "Diplomes"), [
+        html_structures::table(["Années", "Etablissements", "Diplomes"], [
             ["2013 - 2014", "INSSET (02100, Saint -Quentin)", "Licence professionnelle développeur Web"],
             ["2011 - 2013", "Lycée Paul Claudel (02000, Laon)", "BTS SIO SLAM (programmation informatique)"],
             ["2006 - 2011", "Lycée Joliot-Curie (02500 Hirson)", "BAC STI génie électrotechnique (mention bien)"]
@@ -68,7 +68,6 @@ th { text-align: left; }
 .table td, .table th { background-color: #fff !important; }
 .table > thead > tr > th,.table > tbody > tr > th,.table > tfoot > tr > th,.table > thead > tr > td,.table > tbody > tr > td,.table > tfoot > tr > td { padding: 8px; line-height: 1.42857143; vertical-align: top; border-top: 1px solid #dddddd; }
 .table > thead > tr > th { vertical-align: bottom; border-bottom: 2px solid #dddddd; }
-.table > caption + thead > tr:first-child > th,.table > colgroup + thead > tr:first-child > th,.table > thead:first-child > tr:first-child > th,.table > caption + thead > tr:first-child > td,.table > colgroup + thead > tr:first-child > td,.table > thead:first-child > tr:first-child > td { border-top: 0; }
 .table > tbody + tbody { border-top: 2px solid #dddddd; }
 .table .table { background-color: #ffffff; }
 table col[class*="col-"] { position: static; float: none; display: table-column; }
