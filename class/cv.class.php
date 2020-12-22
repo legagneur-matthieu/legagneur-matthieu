@@ -81,7 +81,7 @@ dd ul{margin-left: 150px;}');
  dd{margin:0 50px}
 </style>');
         $pdf->add_content($html);
-        $pdf->print_buton();
+        $pdf->print_buton("CV LEGAGNEUR Matthieu.pdf");
     }
 
 }
