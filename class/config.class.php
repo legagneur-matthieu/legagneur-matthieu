@@ -8,7 +8,7 @@ class config { /* PDO */
     public static $_PDO_host = "localhost";
     public static $_PDO_dbname = "legagneur_matthieu";
     public static $_PDO_login = "root";
-    public static $_PDO_psw = ""; /* hash */
+    public static $_PDO_psw = "root"; /* hash */
     public static $_hash_algo = "sha256"; /* routes */
     public static $_route_auth = array();
     public static $_route_unauth = array(); /* Data */
