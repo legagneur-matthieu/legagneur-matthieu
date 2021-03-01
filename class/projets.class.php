@@ -83,6 +83,7 @@ class projets {
                     [
                         "Convertisseur de températures en : <br />
                             Kelvin (°K), Celsius (°C), Fahrenheit (°F) et Benamran (°B, <strong>humoristique</strong>)",
+                        html_structures::a_link("../convertisseur_temperatures/", "Convertisseur de températures", "card-link", "Convertisseur de températures, lien externe", true) . "<br />" .
                         html_structures::a_link("https://github.com/legagneur-matthieu/convertisseur_temperatures/", "GitHub", "card-link", "Convertisseur de températures, lien externe Github", true)
                     ], "background: linear-gradient(to right, red, orange, yellow, yellowgreen, green, blue, indigo, violet); text-shadow:0 0 15px white; color : black;");
             $this->card();
