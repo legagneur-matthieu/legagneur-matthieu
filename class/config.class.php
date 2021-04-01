@@ -4,11 +4,11 @@
   <br /> * elle contient: * <ul> * <li>les variables de connexion à la base de données</li> * <li>l 'algo utilisé pour les hash</li> * <li>les routes de l 'aplication</li> * </ul> * * mais vous pouvez également y ajouter des variables diverses qui vous seront utile */
 class config { /* PDO */
 
-    public static $_PDO_type = "mysql";
-    public static $_PDO_host = "localhost";
+    public static $_PDO_type = "sqlite";
+    public static $_PDO_host = "";
     public static $_PDO_dbname = "legagneur_matthieu";
-    public static $_PDO_login = "root";
-    public static $_PDO_psw = "root"; /* hash */
+    public static $_PDO_login = "";
+    public static $_PDO_psw = ""; /* hash */
     public static $_hash_algo = "sha256"; /* routes */
     public static $_route_auth = array();
     public static $_route_unauth = array(); /* Data */
