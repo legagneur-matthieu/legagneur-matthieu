@@ -60,8 +60,7 @@ class cv {
         <p>Anglais technique</p>
         <?php
         echo ($html = ob_get_clean()) . html_structures::hr();
-        $pdf = new printer("dompdf");
-        $pdf->add_content('<style type="text/css">.text-center { text-align: center; }
+        $content = '<style type="text/css">.text-center { text-align: center; }
 .list-unstyled { padding-left: 0; list-style: none; }
 th { text-align: left; }
 .table { width: 100%; max-width: 100%; margin-bottom: 20px; border-collapse: collapse !important; }
@@ -75,13 +74,11 @@ table td[class*="col-"],table th[class*="col-"] { position: static; float: none;
 .table-responsive { overflow-x: auto; min-height: 0.01%; }
 .dl-horizontal dt { float: left; width: 150px; clear: left; text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .dl-horizontal dd { margin-left: 10px; }
-dd ul{margin-left: 150px;}');
-        $pdf->add_content('h1,h2,h3,td,tr,th{ margin : 0; padding: 0; }
+dd ul{margin-left: 150px;}h1,h2,h3,td,tr,th{ margin : 0; padding: 0; }
  p, ul, dl, table{font-size:14px; margin 5px;}
  dd{margin:0 50px}
-</style>');
-        $pdf->add_content($html);
-        $pdf->print_buton("CV LEGAGNEUR Matthieu.pdf");
+</style>' . $html;
+        echo printer::PDF($content, "CV LEGAGNEUR Matthieu.pdf");
     }
 
 }
