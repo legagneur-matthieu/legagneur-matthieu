@@ -24,7 +24,13 @@ class projets {
             <div class="card">
                 <div class="card-header" <?= ($head_style ? "style=\"{$head_style}\"" : "") ?> >
                     <h3><?= $head_text ?></h3>
-                    <img src="<?= $img_src ?>" alt="<?= $img_alt ?>"/>
+                    <?php
+                    if ($img_src) {
+                        ?>
+                        <img src="<?= $img_src ?>" alt="<?= $img_alt ?>"/>
+                        <?php
+                    }
+                    ?>
                 </div>
                 <div class="card-body">
                     <?php
@@ -86,7 +92,10 @@ class projets {
                         html_structures::a_link("../convertisseur-temperatures/", "Convertisseur de températures", "card-link", "Convertisseur de températures, lien externe", true) . "<br />" .
                         html_structures::a_link("https://github.com/legagneur-matthieu/convertisseur_temperatures/", "GitHub", "card-link", "Convertisseur de températures, lien externe Github", true)
                     ], "background: linear-gradient(to right, red, orange, yellow, yellowgreen, green, blue, indigo, violet); text-shadow:0 0 15px white; color : black;");
-            $this->card();
+            $this->card("Virtual Printer Online", [
+                "Virtual Printer Online (VPO),<br /> Creation et export de PDF/CSV/QRCODE via une interface WEB ou une API",
+                html_structures::a_link("../vpo/", "VPO", "card-link", "Virtual Printer Online, lien externe", true)
+                    ], false, false, false);
             ?>
 
         </div>
