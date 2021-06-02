@@ -138,7 +138,7 @@ class qui {
             Mais je n'ai aucun regret : j'ai appris énormément de choses en ces 2 ans en tant que chef d'entreprise et notre objectif était en grosse parti atteint : <br />
             Une version satisfaisante du framework fut publié sous licence GNU-GPLv3 lors de la dissolution de l'entreprise.
         </p>
-        <p>Aujourd'hui je suis de nouveau a mon compte en dépannage informatique.</p>
+        <p>Aujourd'hui je suis de nouveau a mon compte en <a href="index.php?page=depannage">dépannage informatique</a>.</p>
         <p>Je continue a améliorer le framework et y intégrer mes connaissances.</p>
         <?php
     }

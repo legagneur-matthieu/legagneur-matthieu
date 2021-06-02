@@ -15,7 +15,7 @@ class pages { /** * Cette classe sert de "Vue" à votre application, * vous pouv
         ]));
         ?> 
         <header class="page-header bg-info"> 
-            <h1>LEGAGNEUR Matthieu <br /><small>Développeur WEB, Libriste</small></h1> 
+            <h1>LEGAGNEUR Matthieu <br /><small>Développeur WEB, Dépannage, Libriste</small></h1> 
             <div id="boostap_switch_theme"><?= bootstrap_theme::switch_theme() ?></div>
         </header> 
         <?php
@@ -34,6 +34,10 @@ class pages { /** * Cette classe sert de "Vue" à votre application, * vous pouv
     /**     * Fonction par défaut / page d'accueil */
     public function index() {
         new qui();
+    }
+
+    public function depannage() {
+        new depannage();
     }
 
     public function cv() {
