@@ -26,6 +26,7 @@ class pages { /** * Cette classe sert de "Vue" à votre application, * vous pouv
         ?> 
         <footer> <hr />
             <p> 2017-<?php echo date("Y"); ?> D&eacute;velopp&eacute; par LEGAGNEUR Matthieu</p>
+            <?php (new lurl(config::$_lurl_key))->selfpage_support_btn(); ?>
             <!--[if (IE 6)|(IE 7)]> <p><big>Ce site n'est pas compatible avec votre version d'internet explorer !</big></p> <![endif]--> 
         </footer> 
         <?php

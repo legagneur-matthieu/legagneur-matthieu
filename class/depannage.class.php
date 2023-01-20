@@ -20,9 +20,13 @@ class depannage {
             <li>Fin de vie numérique</li>
         </ul>
         <h3>Tarif</h3>
-        <p>Devis gratuit, je propose un forfait de 24€/h + 12€ de déplacement</p>
+        <p>Devis gratuit, je propose un forfait de 28€/h + 14€ de déplacement</p>
         <p>Je ne vends pas de matériel, si du matériel doit être commandé aucune marge ne sera prise dessus <br />
             (le matériel sera indiqué au "débours" sur la facture)</p>
+        <h3>Service a la persone (SAP)</h3>
+        <p>Si vous êtes particulier, vous pouvez demander a passer par le système de SAP. <br />
+            ainsi vous beneficiez d'un credit d'inpots et economiser 35% sur mes factures. <br />
+            (dans la limite de 3000€ de facturation annuel)</p>
         <h3>Contact et liens</h3>
         <ul>
             <li>Appel/SMS : <a href="tel:0629747783">06 29 74 77 83</a></li>
