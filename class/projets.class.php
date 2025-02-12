@@ -20,7 +20,7 @@ class projets {
 
     private function card($head_text = "A Venir", $texts = ["Projet à venir, en cours ou en révision"], $head_style = false, $img_src = "src/GPLv3.png", $img_alt = "Licence : GPLv3") {
         ?>
-        <div class="col-sm-6 col-md-4">
+        <div class="col-sm-6 col-md-4 my-2">
             <div class="card">
                 <div class="card-header" <?= ($head_style ? "style=\"{$head_style}\"" : "") ?> >
                     <h3><?= $head_text ?></h3>
@@ -96,6 +96,12 @@ class projets {
                 "Virtual Printer Online (VPO),<br /> Creation et export de PDF/CSV/QRCODE via une interface WEB ou une API",
                 html_structures::a_link("../vpo/", "VPO", "card-link", "Virtual Printer Online, lien externe", true)
                     ], false, false, false);
+            $this->card("Oisy-02450",[
+                "Site de ma mairie de Oisy (02450)",
+                        html_structures::a_link("https://oisy-02450.fr/", "Oisy", "card-link", "Oisy 02450, lien externe", true)
+            ],false,"");
+            $this->card();
+            $this->card();
             ?>
 
         </div>
