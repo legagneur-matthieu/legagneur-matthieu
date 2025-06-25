@@ -97,7 +97,7 @@ class projets {
                 html_structures::a_link("../vpo/", "VPO", "card-link", "Virtual Printer Online, lien externe", true)
                     ], false, false, false);
             $this->card("Oisy-02450",[
-                "Site de ma mairie de Oisy (02450)",
+                "Site de la mairie de Oisy (02450)",
                         html_structures::a_link("https://oisy-02450.fr/", "Oisy", "card-link", "Oisy 02450, lien externe", true)
             ],false,"");
             $this->card();
