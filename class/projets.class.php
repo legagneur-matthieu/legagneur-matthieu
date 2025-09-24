@@ -96,11 +96,14 @@ class projets {
                 "Virtual Printer Online (VPO),<br /> Creation et export de PDF/CSV/QRCODE via une interface WEB ou une API",
                 html_structures::a_link("../vpo/", "VPO", "card-link", "Virtual Printer Online, lien externe", true)
                     ], false, false, false);
+            $this->card("Code Diffusion",[
+                "Service de mutualisation des coûts de diffusion en boîte aux lettres pour les professionnels",
+                html_structures::a_link("https://code-diffusion.fr/", "Code Diffusion", "card-link", "Code Diffusion, lien externe", true)
+            ],false,"src/LogoCD.png", "Logo Code Diffusion");
             $this->card("Oisy-02450",[
                 "Site de la mairie de Oisy (02450)",
                         html_structures::a_link("https://oisy-02450.fr/", "Oisy", "card-link", "Oisy 02450, lien externe", true)
             ],false,"");
-            $this->card();
             $this->card();
             ?>
 

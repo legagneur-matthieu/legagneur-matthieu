@@ -19,9 +19,9 @@ class cv {
         ?>
         <p>
             LEGAGNEUR Matthieu <br />
-            16 rue du général de Gaulle, 02120 Malzy<br />
+            4 place de la demi-lune, 02260 La Capelle<br />
             <a href="mailto:legagneur.matthieu@gmail.com">LEGAGNEUR.Matthieu@gmail.com</a><br />
-            <?= time::get_yers_old(24, 3, 1991); ?> ans, Célibataire, Permis B<br />
+            <?= time::get_yers_old(24, 3, 1991); ?> ans, Permis B<br />
 
         </p>
         <h2 class="text-center">Développeur Web </h2>
